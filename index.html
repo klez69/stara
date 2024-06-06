@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>LPG, autogaz, auto gas - CZAKRAM.PL</title>
+    <head>
+    <title>LPG, autogaz, auto gas - CZAKRAM.PL</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="konwerter" content="Ogonki97" />
 	<meta name="DESCRIPTION" content="Firma Czakram.pl to lider na polskim rynku LPG, autogaz oraz auto gas. Sprawdź nasze ceny instalacji gazowych. Zapraszamy do zapoznania si� z ofert�." />
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style1.css"/>
 	<link rel="SHORTCUT ICON" href="http://www.lpg-brc.pl/brc.ico"/>
 	
-	</head>
+    </head>
 	<body>
         <div id="header">
             <div><embed src="images/logo.swf" width='980' height='343' alt='Menu'></embed></div><br>
@@ -20,14 +20,24 @@
                 <center><embed src="images/link2.swf" width='479' height='54' alt='Menu'>
                 <img src="images/link11.png" width="479" height="194" alt="Pasel lewy"></embed></center>
                     
-                <br><br>
-                
-                
-                <br><br>
+                <br /><br /><br /><br />
                             
                 <div id="nav-right"><img src="images/page1_05.png" width="406" height="25" alt="Pasek prawy"><br>
                     <center><img src="images/linkserw.png" alt="Serwis Tarnów Dojazd"></center></div>
-        </div>
-    </boby>
-</head>
-</html>    
+                    <div><img src="images/page1_08.png" width="980" height="33" alt=""></div>
+                    <?
+                    if($_SERVER['SCRIPT_NAME']=="/brc.php")
+                    {
+                    print("<div>
+                    <h1 style=\"text-align: center; font-size: 15px; margin-bottom: 10px;\">BRC</h1>
+                    </div>");
+                    }else if($_SERVER['SCRIPT_NAME']=="/cenamont.php")
+                    {}
+                    else
+                    print("<div>
+                    <h1 style=\"text-align: center; font-size: 15px; margin-bottom: 10px;\">LPG | instalacja gazowa | instalacje gazowe | auto-gaz | auto gas | autogaz</h1>
+                </div>");
+                    ?>
+            </div>
+    </body>
+</html>
