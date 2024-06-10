@@ -5,6 +5,7 @@ body {
 	background:			#ffffff;
 	color:				#676868;
 	font-family: 		'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font: optional;
 	font-size:			11px;
 	width:				980px;
 	margin:				0 auto;
