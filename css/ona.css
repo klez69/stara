@@ -311,8 +311,6 @@ th {
 	text-align: right;
 	vertical-align: middle;
 }
-.vt .col_1 {
-}
 .vt table {
 	border-collapse: collapse;
 }
@@ -360,8 +358,6 @@ tbody a:visited {
 .vt tbody tr:hover {
 	background-color: #eee;
 	color: #333;
-}
-.vt tbody tr:hover a {
 }
 .vt tbody td + td + td + td a {
 	border-bottom: 0;
