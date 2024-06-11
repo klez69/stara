@@ -298,8 +298,6 @@ th {
 	text-align: right;
 	vertical-align: middle;
 }
-.vt .col_1 {
-}
 .vt table {
 	border-collapse: collapse;
 }
@@ -348,8 +346,6 @@ tbody a:visited {
 	background-color: #eee;
 	color: #333;
 }
-.vt tbody tr:hover a {
-}
 .vt tbody td + td + td + td a {
 	border-bottom: 0;
 	font-weight: bold;
@@ -369,16 +365,6 @@ tbody td + td + td + td a:visited {
 frameset {
 	border: 3px solid #c3c3c3;
 }
-/* ================================================================ 
-This copyright notice must be kept untouched in the stylesheet at 
-all times.
-
-The original version of this stylesheet and the associated (x)html
-is available at http://www.stunicholls.com/menu/pro_drop_2.html
-Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any 
-way to fit your requirements.
-=================================================================== */
 
 #nav {
 	padding: 0;
