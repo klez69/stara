@@ -30,25 +30,12 @@ img {
 	width: 980px;
 	height: 24px;
 }
-#kontener {
-	background: #ffffff;
-	margin: auto;
-	width: 950px;
-	padding: 1px;
-	height: auto;
-	overflow: hidden;
-}
+
 #kontener1 {
 	background: #ffffff;
 	margin: auto;
 	width: 950px;
 	padding: 1px;
-}
-#kontener2 {
-	background: #ffffff;
-	margin: auto;
-	width: 950px;
-	padding: -5px;
 }
 
 h1 {
