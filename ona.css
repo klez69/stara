@@ -1,7 +1,7 @@
 body {
 	background: url(images/wzor.png) repeat;
 	margin: 0 auto;
-	font-family: Tahoma;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 11px;
 }
 
@@ -11,6 +11,7 @@ a {
 }
 img {
 	border: 0px;
+	background-origin: padding-box;
 }
 
 #logo {
