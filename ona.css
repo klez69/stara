@@ -19,13 +19,7 @@ img {
 	height: 170px;
 	margin: auto;
 }
-#logo h1 {
-	color: #ffffff;
-	margin: 0;
-	padding-top: 60px;
-	padding-left: 90px;
-	font-size: 24px;
-}
+
 #menu {
 	width: 980px;
 	height: 24px;
@@ -371,7 +365,6 @@ frameset {
 	margin: 0;
 	list-style: none;
 	height: 13 8px;
-	background: #fff url(three_0.gif) repeat-x;
 	position: relative;
 	z-index: 500;
 	font-family: arial, verdana, sans-serif;
@@ -392,32 +385,18 @@ frameset {
 	font-weight: bold;
 	padding: 0 0 0 12px;
 	cursor: pointer;
-	background: url(three_0.gif);
 }
 #nav li a.top_link span {
 	float: left;
 	display: block;
 	padding: 0 26px 0 12px;
 	height: 35px;
-	background: url(three_0.gif) right top no-repeat;
 }
 #nav li a.top_link span.down {
 	float: left;
 	display: block;
 	padding: 0 26px 0 12px;
 	height: 35px;
-	background: url(three_0a.gif) no-repeat right top;
-}
-
-#nav li:hover a.top_link {
-	color: #fff;
-	background: url(three_1.gif) no-repeat;
-}
-#nav li:hover a.top_link span {
-	background: url(three_1.gif) no-repeat right top;
-}
-#nav li:hover a.top_link span.down {
-	background: url(three_1a.gif) no-repeat right top;
 }
 
 /* Default list styling */
