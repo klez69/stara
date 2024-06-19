@@ -46,7 +46,8 @@ img {
 	color: #b80000;
 	text-align: center;
 	width: 544px;
-	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 }
 #stoptdp {
