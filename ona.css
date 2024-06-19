@@ -39,9 +39,10 @@ img {
 	background-color: #000;
 }
 
-#stop.tr {
+tr#stop {
 	border: #333;
 	size: 2px;
+	border-collapse: collapse;
 }
 
 h1 {
