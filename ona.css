@@ -47,6 +47,7 @@ img {
 	text-align: center;
 	width: 544px;
 	margin-top: auto;
+	position: relative;
 }
 #stoptdp {
 	font-size: 18px;
