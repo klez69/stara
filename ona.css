@@ -37,12 +37,8 @@ img {
 	height: 62px;
 	margin: auto;
 	background-color: #000;
-}
-
-tr#stop {
-	border: #333;
-	size: 2px;
-	border-collapse: collapse;
+	font-size: 16px;
+	color: #b80000;
 }
 
 h1 {
