@@ -39,6 +39,11 @@ img {
 	background-color: #000;
 }
 
+#stop.tr {
+	border: #333;
+	size: 2px;
+}
+
 h1 {
 	margin: 10px 0 0 15px;
 	padding-bottom: 4px;
