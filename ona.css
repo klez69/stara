@@ -39,6 +39,13 @@ img {
 	background-color: #000;
 }
 
+#stoptdl {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: #b80000;
+}
+
 h1 {
 	margin: 10px 0 0 15px;
 	padding-bottom: 4px;
