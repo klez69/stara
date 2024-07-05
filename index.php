@@ -31,21 +31,7 @@
 </script>
 <script src='js/jquery.min.js'></script>
 <script src='js/jqueryCookieGuard.1.0.min.js'></script>
-<script>
-  $(document).ready(function(){
-    $.cookieguard();
-    $.cookieguard.cookies.add('Facebook', 'datr,lu,c_user,xs', 'Facebook uses cookies to track the sites you visit', true);
-    $.cookieguard.cookies.add('Twitter', 'guest_id,k,pid,twitter_sess', 'Twitter uses cookies to maintain widgets', true);
-    $.cookieguard.cookies.add('ASP.NET Session', 'ASP.NET_SessionId', 'This cookie is used to track important logical information for the smooth operation of the site', true);
-    $.cookieguard.cookies.add('PHP Session', 'PHPSESSID', 'This cookie is used to track important logical information for the smooth operation of the site', true);
-    $.cookieguard.cookies.add('ColdFusion Session', 'CFID', 'This cookie is used to track important logical information for the smooth operation of the site', true);
-    $.cookieguard.cookies.add('Java/JSP Session', 'JSESSIONID', 'This cookie is used to track important logical information for the smooth operation of the site', true);
-    $.cookieguard.cookies.add('Classic ASP Session', 'ASPSESSIONID*', 'This cookie is used to track important logical information for the smooth operation of the site', true);
-    $.cookieguard.cookies.add('Google Analytics', '__utma,__utmb,__utmc,__utmz,__utmv', 'These cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.', true);
-    $.cookieguard.cookies.add('Omni­ture SiteCatalyst', 's_vi,s_pers, s_sess', 'These cookies are used to collect information about how visitors use our site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.', true);
-    $.cookieguard.run();
-  });
-</script>
+
 </head>
 
 <? require("logo.php"); ?>
