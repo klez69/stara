@@ -2,120 +2,104 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Czakram - Logowanie</title>
   <style>
     body {
-      font-family: "Times New Roman", serif;
-      background-color: #f2f2f2;
       margin: 0;
       padding: 0;
-    }
-    header {
-      background-color: #000; /* czarne tło */
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #000, #550000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       color: #fff;
-      padding: 20px;
+    }
+    .login-container {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+      max-width: 400px;
+      width: 100%;
+    }
+    .login-container h2 {
       text-align: center;
+      margin-bottom: 30px;
+      color: #ff0000;
+      font-size: 2rem;
     }
-    header img {
-      max-height: 60px;
-      vertical-align: middle;
-    }
-    nav {
-      background-color: #000;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #ff0000; /* czerwony akcent */
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .container {
-      max-width: 600px;
-      margin: 30px auto;
-      background: #fff;
-      border: 1px solid #ccc;
-      padding: 20px;
-    }
-    .login-form {
-      margin: 20px 0;
-    }
-    .login-form label {
+    .login-container label {
       display: block;
       margin-bottom: 5px;
-      font-weight: bold;
-      color: #000;
+      font-size: 0.9rem;
+      color: #ccc;
     }
-    .login-form input[type="text"],
-    .login-form input[type="password"] {
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
       width: 100%;
-      padding: 8px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
+      padding: 12px 15px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
     }
-    .login-form input[type="submit"] {
-      background-color: #000;
-      color: #ff0000;
-      border: 1px solid #ff0000;
-      padding: 10px 20px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .login-form input[type="submit"]:hover {
+    .login-container input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
       background-color: #ff0000;
       color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .login-container input[type="submit"]:hover {
+      background-color: #cc0000;
     }
     .help-links {
       text-align: center;
       margin-top: 15px;
+      font-size: 0.85rem;
     }
     .help-links a {
-      color: #000;
+      color: #ff0000;
       text-decoration: none;
-      font-size: 14px;
       margin: 0 5px;
     }
-    footer {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
+    .footer {
+      position: absolute;
+      bottom: 10px;
       width: 100%;
-      bottom: 0;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #aaa;
     }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="CZAKRAM">
-    <h1>Czakram - Panel Logowania</h1>
-  </header>
-  <nav>
-    <a href="#">Strona Główna</a>
-    <a href="#">O nas</a>
-    <a href="#">Kontakt</a>
-  </nav>
-  <div class="container">
-    <form class="login-form" action="login.php" method="post">
+  <div class="login-container">
+    <h2>Czakram Logowanie</h2>
+    <form action="login.php" method="post">
       <label for="username">Użytkownik</label>
       <input type="text" id="username" name="username" placeholder="Wpisz nazwę użytkownika">
-      
       <label for="password">Hasło</label>
       <input type="password" id="password" name="password" placeholder="Wpisz hasło">
-      
       <input type="submit" value="Zaloguj się">
     </form>
     <div class="help-links">
       <a href="#">Nie pamiętasz hasła?</a> |
       <a href="#">Nie pamiętasz nazwy?</a> |
-      <a href="#">Załóż swoje konto!</a>
+      <a href="#">Załóż konto!</a>
     </div>
   </div>
-  <footer>
+  <div class="footer">
     &copy; CZAKRAM 2015 - 2025
-  </footer>
+  </div>
 </body>
 </html>
