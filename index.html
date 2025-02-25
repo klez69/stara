@@ -1,105 +1,42 @@
+<?php
+// index.php
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Czakram - Logowanie</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(135deg, #000, #550000);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: #fff;
-    }
-    .login-container {
-      background: rgba(0, 0, 0, 0.85);
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
-      max-width: 400px;
-      width: 100%;
-    }
-    .login-container h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #ff0000;
-      font-size: 2rem;
-    }
-    .login-container label {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-    .login-container input[type="text"],
-    .login-container input[type="password"] {
-      width: 100%;
-      padding: 12px 15px;
-      margin-bottom: 20px;
-      border: none;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-    .login-container input[type="submit"] {
-      width: 100%;
-      padding: 12px;
-      border: none;
-      border-radius: 5px;
-      background-color: #ff0000;
-      color: #fff;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    .login-container input[type="submit"]:hover {
-      background-color: #cc0000;
-    }
-    .help-links {
-      text-align: center;
-      margin-top: 15px;
-      font-size: 0.85rem;
-    }
-    .help-links a {
-      color: #ff0000;
-      text-decoration: none;
-      margin: 0 5px;
-    }
-    .footer {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #aaa;
-    }
-  </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Serwis Samochodowy</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div class="login-container">
-    <h2>Czakram Logowanie</h2>
-    <form action="login.php" method="post">
-      <label for="username">Użytkownik</label>
-      <input type="text" id="username" name="username" placeholder="Wpisz nazwę użytkownika">
-      <label for="password">Hasło</label>
-      <input type="password" id="password" name="password" placeholder="Wpisz hasło">
-      <input type="submit" value="Zaloguj się">
-    </form>
-    <div class="help-links">
-      <a href="#">Nie pamiętasz hasła?</a> |
-      <a href="#">Nie pamiętasz nazwy?</a> |
-      <a href="#">Załóż konto!</a>
-    </div>
-  </div>
-  <div class="footer">
-    &copy; CZAKRAM 2015 - 2025
-  </div>
+    <header>
+        <h1>Witamy w Serwisie Samochodowym</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php" class="active">Strona Główna</a></li>
+                <li><a href="oferta.php">Oferta</a></li>
+                <li><a href="kontakt.php">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Profesjonalna obsługa samochodowa</h2>
+            <p>Zapewniamy kompleksowe usługi serwisowe dla Twojego pojazdu.</p>
+        </section>
+        <section id="services">
+            <h2>Nasze Usługi</h2>
+            <ul>
+                <li>Przeglądy techniczne</li>
+                <li>Naprawy mechaniczne</li>
+                <li>Diagnostyka komputerowa</li>
+                <li>Wulkanizacja</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Serwis Samochodowy</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
